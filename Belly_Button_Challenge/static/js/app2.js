@@ -8,20 +8,15 @@ console.log("Data Promise: ", dataPromise);
 
 // Fetch the JSON data and console log it
 d3.json(url).then(function (data) {
-    console.log(data);
-});
+    function createDropDown(data) {
+        var names = data.names;
+        var select = d3.select("#selDataset");
 
-
-
-//     let selector = d3.select("#selDataset");
-//     meta = data.metadata;
-//     samples = data.samples;
-//     data.names.forEach((id) => {
-//         selector.append("option").text(id).property("value", id);
-//     });
-//     metaData(meta[0]);
-//     hbarChart(samples[0]);
-//     bubbleChart(samples[0]);
-//     gaugeChart(meta[0]);
-
-// });
+        names.forEach((name) => {
+            select.append("option").text(name).property("value", name);
+        });
+    }
+}
+    // function init() {
+    //     var firstName = data.names[0];
+    //     getData(firstName)
