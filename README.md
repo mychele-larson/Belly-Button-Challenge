@@ -1,21 +1,16 @@
-# Belly-Button-Challenge
+## Belly-Button-Challenge
 
-Module 14 Challenge
+![image](https://user-images.githubusercontent.com/110074895/211963344-156fdf62-4b4a-489a-a58f-a57e244d5747.png)        ![image](https://user-images.githubusercontent.com/110074895/211963849-16ebb23b-3858-47a7-8fd8-35d9cbb1a5bc.png)
+
+
+
+## Module 14 Challenge
 Due Jan 12, 2023 by 11:59pm Points 100 Submitting a text entry box or a website url
+
 Background
 In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity dataset Links to an external site., which catalogs the microbes that colonize human navels.
 
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
-
-Before You Begin
-Create a new repository for this project called belly-button-challenge. Do not add this Challenge to an existing repository.
-
-Clone the new repository to your computer.
-
-Inside your local git repository, copy the files from in the StarterCode folder contained within the Module 14 Challenge zip file. i.e. index.html, samples.json, and the static folder.
-
-NOTE
-You will not be required to access the samples.json file locally, but it is provided for reference.
 
 Push the above changes to GitHub.
 
@@ -30,7 +25,7 @@ Use the D3 library to read in samples.json from the URL https://2u-data-curricul
 Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
 
     Use sample_values as the values for the bar chart.
-
+                                                                    
     Use otu_ids as the labels for the bar chart.
 
     Use otu_labels as the hovertext for the chart.
