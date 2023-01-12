@@ -23,7 +23,6 @@ d3.json(url).then(function (data) {
     metaData(meta_data[0]);
     hbarChart(samples[0]);
     bubbleChart(samples[0]);
-    gaugeChart(metaData[0]);
 });
 
 function optionChanged(value) {
@@ -39,8 +38,6 @@ function optionChanged(value) {
     // Bubble Chart
     bubbleChart(selectedId);
 
-    // Gauge Chart
-    gaugeChart(demographicInfo);
 }
 
 function metaData(demographicInfo) {
@@ -117,4 +114,5 @@ function bubbleChart(selectedId) {
     };
     Plotly.newPlot("bubble", chart, layout);
 }
+
 
